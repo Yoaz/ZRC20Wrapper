@@ -1,0 +1,99 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+dependencies
+
+# Hardhat files
+cache
+artifacts
+
+# Foundry files
+out
+cache_forge
+
+access_token
+
+localnet.json
+
+# === Root directory .gitignore for helper-contracts ===
+
+# === Hardhat specific ===
+artifacts/
+cache/
+typechain/        # Generated TypeScript typings (if using typechain)
+coverage/         # Coverage output from solidity-coverage
+build-info/       # Hardhat build info
+*.solc.json       # Hardhat Solidity compiler cache
+
+# === Broadcast logs ===
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# === Deployment ===
+deployments/
+!deployments/.gitkeep
+
+# === Documentation ===
+docs/
+docs/.env.example
+
+# === Environment files ===
+.env
+
+# === Node.js specific ===
+node_modules
+*.tsbuildinfo
+pnpm-lock.json
+
+# === Coverage and testing ===
+coverage/
+.nyc_output/
+
+# === Build tools and artifacts ===
+build/
+.cache
+.fusebox/
+
+# === Temporary files and logs ===
+logs/
+*.log
+*.pid
+*.pid.lock
+pids/
+*.seed
+
+# === IDE-specific ===
+.vscode/
+.workspace.code-workspace
+.idea/
+*.code-workspace
+
+# === OS-specific ===
+.DS_Store
+
+# === Version control system (GitHub defaults) ===
+.lock-wscript
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# === Framework outputs ===
+.next/        # Next.js
+.nuxt/        # Nuxt.js
+.vuepress/dist # VuePress
+.serverless/  # Serverless framework
+
+# === Other tools and directories ===
+bower_components/
+jspm_packages/
+typings/
+.grunt/
+.dynamodb/
+
+# === Performance profiling ===
+.clinic/
+
+# === Miscellaneous ===
+lib-cov/
